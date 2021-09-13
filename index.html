@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="innerDiv">
+            <h2>MY TO-DO LIST</h2>
+            <h4 style ="font-family:cursive;">Double-click an item to mark it complete.</h4>
+            <input type="text" id="toDo"></input>
+            <p>
+            <button type = "submit" id ="add"class="add" onclick = "add()">Add</button>
+        </p>
+            <ol id="outputList"></ol>
+            <p>
+                <button type = "submit" class="activity" id="completed">completed</button>
+            <button type = "submit" class="activity" id="empty">empty</button>
+            <button type = "submit" class="activity" id="save">save</button>
+            </p>
+            
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
